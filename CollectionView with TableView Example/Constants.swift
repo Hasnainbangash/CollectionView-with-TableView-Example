@@ -12,7 +12,7 @@ struct K {
     // All identifiers names of the cell
     struct Identifiers {
         static let tableViewCellIdentifier = "cell"
-        static let collectionViewCellIdentifier = "collectioncell"
+        static let collectionViewCellIdentifier = "collectionCell"
     }
     
     // All NibNames of the custom classes names

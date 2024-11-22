@@ -16,6 +16,9 @@ class MyTableViewCell: UITableViewCell {
         // Initialization code
         myCollectionView.dataSource = self
         myCollectionView.delegate = self
+        
+//        myCollectionView.register(UINib(nibName: K.NibNames.collectionCellNibName, bundle: nil), forCellWithReuseIdentifier: K.Identifiers.collectionViewCellIdentifier)
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
