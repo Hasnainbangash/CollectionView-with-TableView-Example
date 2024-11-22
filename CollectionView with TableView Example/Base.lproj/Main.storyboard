@@ -57,6 +57,9 @@
                                                                 </constraints>
                                                             </collectionViewCellContentView>
                                                             <size key="customSize" width="170" height="168"/>
+                                                            <connections>
+                                                                <outlet property="myImage" destination="UaK-Xn-gjl" id="TC7-EQ-qAg"/>
+                                                            </connections>
                                                         </collectionViewCell>
                                                     </cells>
                                                 </collectionView>
@@ -68,6 +71,9 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="KwT-iD-vgd" secondAttribute="bottom" id="fYi-X1-vDY"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="myCollectionView" destination="KwT-iD-vgd" id="hhQ-ZR-hof"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

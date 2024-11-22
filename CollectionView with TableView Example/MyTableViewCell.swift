@@ -8,7 +8,9 @@
 import UIKit
 
 class MyTableViewCell: UITableViewCell {
-
+    
+    @IBOutlet weak var myCollectionView: UICollectionView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
