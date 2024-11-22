@@ -87,6 +87,9 @@
                             <constraint firstItem="t8l-rc-uVc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pRo-OK-d59"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myTable" destination="t8l-rc-uVc" id="ip4-wj-HNi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
