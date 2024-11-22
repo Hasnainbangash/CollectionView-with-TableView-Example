@@ -48,8 +48,14 @@
                                                                 <subviews>
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PunjabiMovies4" translatesAutoresizingMaskIntoConstraints="NO" id="UaK-Xn-gjl">
                                                                         <rect key="frame" x="0.0" y="0.0" width="170" height="168"/>
+                                                                        <color key="backgroundColor" systemColor="linkColor"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="168" id="Y7O-O3-SfL"/>
+                                                                            <constraint firstAttribute="width" constant="170" id="q7w-iR-frr"/>
+                                                                        </constraints>
                                                                     </imageView>
                                                                 </subviews>
+                                                                <color key="backgroundColor" systemColor="linkColor"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="bottom" secondItem="UaK-Xn-gjl" secondAttribute="bottom" id="7Ro-eT-lZu"/>
                                                                     <constraint firstItem="UaK-Xn-gjl" firstAttribute="top" secondItem="FZ1-cN-NBk" secondAttribute="top" id="PVN-wJ-RNO"/>
@@ -99,6 +105,9 @@
     </scenes>
     <resources>
         <image name="PunjabiMovies4" width="208.66667175292969" height="117"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -27,7 +27,7 @@ class MyTableViewCell: UITableViewCell {
 
 }
 
-extension MyTableViewCell: UICollectionViewDataSource {
+extension MyTableViewCell: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return eData[myCollectionView.tag].imageGallery.count
@@ -35,12 +35,13 @@ extension MyTableViewCell: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = myCollectionView.dequeueReusableCell(withReuseIdentifier: K.Identifiers.collectionViewCellIdentifier, for: indexPath) as! MyCollectionViewCell
-        
+        cell.configure(size: CGSize(width: 170, height: 168))
         cell.myImage.image = UIImage(named: eData[myCollectionView.tag].imageGallery[indexPath.row])
         
         return cell
     }
-
+    
+   
 }
 
 extension MyTableViewCell: UICollectionViewDelegate {

@@ -16,4 +16,7 @@ class MyCollectionViewCell: UICollectionViewCell {
         // Initialization code
     }
     
+    func configure(size: CGSize) {
+        myImage.frame.size = size
+    }
 }
