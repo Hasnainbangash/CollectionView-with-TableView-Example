@@ -42,10 +42,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         myTable.dataSource = self
         myTable.delegate = self
-        
-//        myTable.register(UINib(nibName: K.NibNames.tableViewCellNibName, bundle: nil), forCellReuseIdentifier: K.Identifiers.tableViewCellIdentifier)
-        
-        
     }
     
 }
