@@ -33,7 +33,6 @@
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="5" minimumInteritemSpacing="5" id="CVn-sp-hwf">
                                                         <size key="itemSize" width="170" height="168"/>
-                                                        <size key="estimatedItemSize" width="170" height="168"/>
                                                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -49,10 +48,6 @@
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PunjabiMovies4" translatesAutoresizingMaskIntoConstraints="NO" id="UaK-Xn-gjl">
                                                                         <rect key="frame" x="0.0" y="0.0" width="170" height="168"/>
                                                                         <color key="backgroundColor" systemColor="linkColor"/>
-                                                                        <constraints>
-                                                                            <constraint firstAttribute="height" constant="168" id="Y7O-O3-SfL"/>
-                                                                            <constraint firstAttribute="width" constant="170" id="q7w-iR-frr"/>
-                                                                        </constraints>
                                                                     </imageView>
                                                                 </subviews>
                                                                 <color key="backgroundColor" systemColor="linkColor"/>
@@ -106,7 +101,7 @@
     <resources>
         <image name="PunjabiMovies4" width="208.66667175292969" height="117"/>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
